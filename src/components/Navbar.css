@@ -5,7 +5,6 @@
   justify-content: center;
   display: flex;
   width: 5%;
-  background-image: ;
 }
 
 .fa-pinterest {
@@ -26,7 +25,7 @@
 .navbar {
   width: 100%;
   background: white;
-  height: 56px;
+  height: 66px;
   display: flex;
   padding-bottom: 4px;
   padding-top: 4px;
@@ -34,7 +33,7 @@
   align-items: center;
   position: fixed;
   z-index: 10;
-  justify-content: center;
+  justify-content: flex-start;
   border-bottom: 1px solid #efefef;
 }
 
@@ -56,27 +55,27 @@
 }
 
 .content-iconright {
-  height: 48px;
-  width: 48px;
+  height: 35px;
+  width: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 10px;
 }
 
 .fa-comment-dots,
 .fa-bell,
 .fa-ellipsis-h {
   color: #8e8e8e;
-  font-size: 26px;
-  padding-left: 4px;
-  padding-right: 4px;
+  font-size: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .content-input {
   width: 60%;
-  min-width: 750px;
+  min-width: 770px;
   height: 40px;
-  background-color: #efefef;
   box-sizing: border-box;
   border-radius: 8px;
   display: flex;
@@ -99,26 +98,7 @@
   color: #8e8e8e;
   font-size: 16px;
   font-weight: 700;
-}
-
-.images-list {
-  width: 100%;
-  border-radius: 8px;
-  cursor: zoom-in;
-}
-
-.content-img {
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 20px;
-}
-
-.content-images {
-  margin-top: 90px;
-  width: 100%;
-  column-width: 210px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 10px;
 }
 
 .border-separator {
@@ -170,8 +150,36 @@
   border-radius: 8px;
   border-width: 3px;
   border-style: solid;
+  background-color: #efefef;
+}
+
+#Init {
+  color: black;
 }
 
 .fa-times {
   color: #8e8e8e;
+}
+
+.btn-user {
+  margin-left: 10px;
+  display: flex;
+  flex-basis: 8%;
+  background: transparent;
+  font-weight: bold;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.userPic {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: #8e8e8e;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+.userName {
+  margin-left: 8px;
 }

@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import Search from "./Search";
 import ListImage from "./ListImage";
+import Logo from "../img/logo-pin.png";
+import Bell from "../img/bell1.svg";
+import Chat from "../img/chat1.svg";
+import Dots from "../img/dot.svg";
+import InfiniteScroll from "react-infinite-scroll-component";
 
 function Navbar() {
   const [busqueda, guardarBusqueda] = useState("");
@@ -29,44 +34,49 @@ function Navbar() {
       <div className="content-icon">
         <div>
           <div className="content-input">
-            <i className="fas fa-search"></i>
-            <a href="">
-              <img
-                className="logo"
-                src="https://i.ibb.co/r4t0P6N/unnamed.png"
-                alt="logo pinterest"
-                border="0"
-              ></img>
-            </a>
+            <img className="logo" src={Logo} alt="Logo" />
           </div>
         </div>
       </div>
       <Search guardarBusqueda={guardarBusqueda} />
       <div className="second-content">
-        <div className="color-text navtext" style={{ color: "#262626" }}>
+        <div className="color-text navtext" id="Init">
           Inicio
         </div>
         <div className="color-text navtext">Siguiendo</div>
-        <div className="content-profile navtext color-text">
-          <div>
-            <i className="fas fa-user-circle"></i>
+        <div className="color-text navtext">
+          <div className="btn-user">
+            <div className="userPic">A</div>
+            <div className="userName">Alebea</div>
           </div>
-          <div>AleBea</div>
         </div>
         <div className="border-separator padding-navtext"></div>
         <div className="content-iconright">
           <i className="fas fa-comment-dots"></i>
+          <img src={Chat} alt="message" />
         </div>
         <div className="content-iconright">
           <i className="fas fa-bell"></i>
+          <img src={Bell} alt="news" />
         </div>
         <div className="content-iconright">
           <i className="fas fa-ellipsis-h"></i>
-        </div>
-        <div>
-          <ListImage imagenes={imagenes} />
+          <img src={Dots} alt="add" />
         </div>
       </div>
+      <InfiniteScroll
+        dataLength={imagenes.length}
+        next={fetch}
+        hasMore={true}
+        loader={<h4>Loading...</h4>}
+        endMessage={
+          <p style={{ textAlign: "center" }}>
+            <b>Yay! You have seen it all</b>
+          </p>
+        }
+      >
+        <ListImage imagenes={imagenes} />
+      </InfiniteScroll>
     </nav>
   );
 }
