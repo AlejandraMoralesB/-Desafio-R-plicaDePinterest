@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/-Desafio-R-plicaDePinterest/static/css/main.9d6ecae6.chunk.css",
+    "main.js": "/-Desafio-R-plicaDePinterest/static/js/main.443fad9e.chunk.js",
+    "main.js.map": "/-Desafio-R-plicaDePinterest/static/js/main.443fad9e.chunk.js.map",
+    "runtime-main.js": "/-Desafio-R-plicaDePinterest/static/js/runtime-main.5eb35ed8.js",
+    "runtime-main.js.map": "/-Desafio-R-plicaDePinterest/static/js/runtime-main.5eb35ed8.js.map",
+    "static/css/2.510409cd.chunk.css": "/-Desafio-R-plicaDePinterest/static/css/2.510409cd.chunk.css",
+    "static/js/2.58b3d6c9.chunk.js": "/-Desafio-R-plicaDePinterest/static/js/2.58b3d6c9.chunk.js",
+    "static/js/2.58b3d6c9.chunk.js.map": "/-Desafio-R-plicaDePinterest/static/js/2.58b3d6c9.chunk.js.map",
+    "index.html": "/-Desafio-R-plicaDePinterest/index.html",
+    "precache-manifest.d95cbfad041886f64f026d0b9c9ccfa3.js": "/-Desafio-R-plicaDePinterest/precache-manifest.d95cbfad041886f64f026d0b9c9ccfa3.js",
+    "service-worker.js": "/-Desafio-R-plicaDePinterest/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/-Desafio-R-plicaDePinterest/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.9d6ecae6.chunk.css.map": "/-Desafio-R-plicaDePinterest/static/css/main.9d6ecae6.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5eb35ed8.js",
+    "static/css/2.510409cd.chunk.css",
+    "static/js/2.58b3d6c9.chunk.js",
+    "static/css/main.9d6ecae6.chunk.css",
+    "static/js/main.443fad9e.chunk.js"
+  ]
+}
