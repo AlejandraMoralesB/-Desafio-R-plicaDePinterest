@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/-Desafio-R-plicaDePinterest/precache-manifest.35a4ac43a718c03038d9b1105622bf76.js"
+  "/-Desafio-R-plicaDePinterest/precache-manifest.565b1903c81797af56d52d31e755b3d2.js"
 );
 
 self.addEventListener('message', (event) => {
