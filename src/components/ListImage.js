@@ -1,9 +1,10 @@
 import React from "react";
 import Imagen from "./Imagen";
+import "./ListImage.css";
 
 function ListImage({ imagenes }) {
   return (
-    <div className="col-12 p-5 row">
+    <div className="content-images">
       {imagenes.map(imagen => (
         <Imagen key={imagen.id} imagen={imagen} />
       ))}

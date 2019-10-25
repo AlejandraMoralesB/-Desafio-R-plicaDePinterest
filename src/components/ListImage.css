@@ -1,0 +1,9 @@
+.content-images {
+  margin-top: 90px;
+  width: 100%;
+  -webkit-column-width: 328px;
+  -moz-column-width: 328px;
+  column-width: 328px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -7,9 +7,10 @@ import Bell from "../img/bell1.svg";
 import Chat from "../img/chat1.svg";
 import Dots from "../img/dot.svg";
 import InfiniteScroll from "react-infinite-scroll-component";
+import Masonry from "react-masonry-component";
 
 function Navbar() {
-  const [busqueda, guardarBusqueda] = useState("");
+  const [busqueda, guardarBusqueda] = useState("casa");
   const [imagenes, guardarImagenes] = useState([]);
 
   useEffect(() => {
@@ -30,43 +31,46 @@ function Navbar() {
   }, [busqueda]);
 
   return (
-    <nav className="navbar">
-      <div className="content-icon">
-        <div>
-          <div className="content-input">
-            <img className="logo" src={Logo} alt="Logo" />
+    <div className="app">
+      <nav className="navbar">
+        <div className="content-icon">
+          <div>
+            <div className="content-input">
+              <img className="logo" src={Logo} alt="Logo" />
+            </div>
           </div>
         </div>
-      </div>
-      <Search guardarBusqueda={guardarBusqueda} />
-      <div className="second-content">
-        <div className="color-text navtext" id="Init">
-          Inicio
-        </div>
-        <div className="color-text navtext">Siguiendo</div>
-        <div className="color-text navtext">
-          <div className="btn-user">
-            <div className="userPic">A</div>
-            <div className="userName">Alebea</div>
+        <Search guardarBusqueda={guardarBusqueda} />
+        <div className="second-content">
+          <div className="color-text navtext" id="Init">
+            Inicio
+          </div>
+          <div className="color-text navtext">Siguiendo</div>
+          <div className="color-text navtext">
+            <div className="btn-user">
+              <div className="userPic">A</div>
+              <div className="userName">Alebea</div>
+            </div>
+          </div>
+          <div className="border-separator padding-navtext"></div>
+          <div className="content-iconright">
+            <i className="fas fa-comment-dots"></i>
+            <img src={Chat} alt="message" />
+          </div>
+          <div className="content-iconright">
+            <i className="fas fa-bell"></i>
+            <img src={Bell} alt="news" />
+          </div>
+          <div className="content-iconright">
+            <i className="fas fa-ellipsis-h"></i>
+            <img src={Dots} alt="add" />
           </div>
         </div>
-        <div className="border-separator padding-navtext"></div>
-        <div className="content-iconright">
-          <i className="fas fa-comment-dots"></i>
-          <img src={Chat} alt="message" />
-        </div>
-        <div className="content-iconright">
-          <i className="fas fa-bell"></i>
-          <img src={Bell} alt="news" />
-        </div>
-        <div className="content-iconright">
-          <i className="fas fa-ellipsis-h"></i>
-          <img src={Dots} alt="add" />
-        </div>
-      </div>
+      </nav>
+
       <InfiniteScroll
         dataLength={imagenes.length}
-        next={fetch}
+        next={useEffect.consultarApi}
         hasMore={true}
         loader={<h4>Loading...</h4>}
         endMessage={
@@ -75,9 +79,11 @@ function Navbar() {
           </p>
         }
       >
-        <ListImage imagenes={imagenes} />
+        <Masonry>
+          <ListImage imagenes={imagenes} />
+        </Masonry>
       </InfiniteScroll>
-    </nav>
+    </div>
   );
 }
 
