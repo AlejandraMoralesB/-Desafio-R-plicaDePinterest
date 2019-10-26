@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29e3f3fc83b36dfe54fef38a1ed1c67c",
+    "revision": "e19c1ac96ede8be0b709db83fd8a3d9b",
     "url": "/-Desafio-R-plicaDePinterest/index.html"
   },
   {
-    "revision": "e3abd04813f7a41887a0",
+    "revision": "5e0934017dae92e59954",
     "url": "/-Desafio-R-plicaDePinterest/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "1d9a0fabb1cd374f2b0c",
-    "url": "/-Desafio-R-plicaDePinterest/static/css/main.a416196f.chunk.css"
+    "revision": "98cb715693dfdfed9efc",
+    "url": "/-Desafio-R-plicaDePinterest/static/css/main.bef65fc2.chunk.css"
   },
   {
-    "revision": "e3abd04813f7a41887a0",
-    "url": "/-Desafio-R-plicaDePinterest/static/js/2.c3b81aba.chunk.js"
+    "revision": "5e0934017dae92e59954",
+    "url": "/-Desafio-R-plicaDePinterest/static/js/2.2dfd9513.chunk.js"
   },
   {
-    "revision": "1d9a0fabb1cd374f2b0c",
-    "url": "/-Desafio-R-plicaDePinterest/static/js/main.55fa79c5.chunk.js"
+    "revision": "98cb715693dfdfed9efc",
+    "url": "/-Desafio-R-plicaDePinterest/static/js/main.97ddec1c.chunk.js"
   },
   {
     "revision": "eb9396bbccb1f88db639",

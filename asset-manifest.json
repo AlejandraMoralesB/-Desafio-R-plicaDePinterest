@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/-Desafio-R-plicaDePinterest/static/css/main.a416196f.chunk.css",
-    "main.js": "/-Desafio-R-plicaDePinterest/static/js/main.55fa79c5.chunk.js",
-    "main.js.map": "/-Desafio-R-plicaDePinterest/static/js/main.55fa79c5.chunk.js.map",
+    "main.css": "/-Desafio-R-plicaDePinterest/static/css/main.bef65fc2.chunk.css",
+    "main.js": "/-Desafio-R-plicaDePinterest/static/js/main.97ddec1c.chunk.js",
+    "main.js.map": "/-Desafio-R-plicaDePinterest/static/js/main.97ddec1c.chunk.js.map",
     "runtime-main.js": "/-Desafio-R-plicaDePinterest/static/js/runtime-main.5eb35ed8.js",
     "runtime-main.js.map": "/-Desafio-R-plicaDePinterest/static/js/runtime-main.5eb35ed8.js.map",
     "static/css/2.510409cd.chunk.css": "/-Desafio-R-plicaDePinterest/static/css/2.510409cd.chunk.css",
-    "static/js/2.c3b81aba.chunk.js": "/-Desafio-R-plicaDePinterest/static/js/2.c3b81aba.chunk.js",
-    "static/js/2.c3b81aba.chunk.js.map": "/-Desafio-R-plicaDePinterest/static/js/2.c3b81aba.chunk.js.map",
+    "static/js/2.2dfd9513.chunk.js": "/-Desafio-R-plicaDePinterest/static/js/2.2dfd9513.chunk.js",
+    "static/js/2.2dfd9513.chunk.js.map": "/-Desafio-R-plicaDePinterest/static/js/2.2dfd9513.chunk.js.map",
     "index.html": "/-Desafio-R-plicaDePinterest/index.html",
-    "precache-manifest.565b1903c81797af56d52d31e755b3d2.js": "/-Desafio-R-plicaDePinterest/precache-manifest.565b1903c81797af56d52d31e755b3d2.js",
+    "precache-manifest.f22c374533155ed09ab979917c285260.js": "/-Desafio-R-plicaDePinterest/precache-manifest.f22c374533155ed09ab979917c285260.js",
     "service-worker.js": "/-Desafio-R-plicaDePinterest/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/-Desafio-R-plicaDePinterest/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.a416196f.chunk.css.map": "/-Desafio-R-plicaDePinterest/static/css/main.a416196f.chunk.css.map",
+    "static/css/main.bef65fc2.chunk.css.map": "/-Desafio-R-plicaDePinterest/static/css/main.bef65fc2.chunk.css.map",
     "static/media/bell1.svg": "/-Desafio-R-plicaDePinterest/static/media/bell1.638b8cdc.svg",
     "static/media/chat1.svg": "/-Desafio-R-plicaDePinterest/static/media/chat1.46debb6e.svg",
     "static/media/dot.svg": "/-Desafio-R-plicaDePinterest/static/media/dot.9da64eda.svg",
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.5eb35ed8.js",
     "static/css/2.510409cd.chunk.css",
-    "static/js/2.c3b81aba.chunk.js",
-    "static/css/main.a416196f.chunk.css",
-    "static/js/main.55fa79c5.chunk.js"
+    "static/js/2.2dfd9513.chunk.js",
+    "static/css/main.bef65fc2.chunk.css",
+    "static/js/main.97ddec1c.chunk.js"
   ]
 }
