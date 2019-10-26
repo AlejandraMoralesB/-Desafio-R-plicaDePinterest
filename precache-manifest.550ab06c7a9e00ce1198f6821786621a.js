@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e19c1ac96ede8be0b709db83fd8a3d9b",
+    "revision": "c4f8d0fc8eaf7a36b9f21b58c76b9bc3",
     "url": "/-Desafio-R-plicaDePinterest/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/-Desafio-R-plicaDePinterest/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "98cb715693dfdfed9efc",
-    "url": "/-Desafio-R-plicaDePinterest/static/css/main.bef65fc2.chunk.css"
+    "revision": "a34446184fdbf7a80aaa",
+    "url": "/-Desafio-R-plicaDePinterest/static/css/main.a71fd282.chunk.css"
   },
   {
     "revision": "5e0934017dae92e59954",
     "url": "/-Desafio-R-plicaDePinterest/static/js/2.2dfd9513.chunk.js"
   },
   {
-    "revision": "98cb715693dfdfed9efc",
+    "revision": "a34446184fdbf7a80aaa",
     "url": "/-Desafio-R-plicaDePinterest/static/js/main.97ddec1c.chunk.js"
   },
   {
