@@ -8,9 +8,10 @@ import Chat from "../img/chat1.svg";
 import Dots from "../img/dot.svg";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Masonry from "react-masonry-component";
+import ButtonsOptions from "./ButtonsOptions";
 
 function Navbar() {
-  const [busqueda, guardarBusqueda] = useState("casa");
+  const [busqueda, guardarBusqueda] = useState("pasos");
   const [imagenes, guardarImagenes] = useState([]);
 
   useEffect(() => {
@@ -36,7 +37,9 @@ function Navbar() {
         <div className="content-icon">
           <div>
             <div className="content-input">
-              <img className="logo" src={Logo} alt="Logo" />
+              <a href="index.html">
+                <img className="logo" src={Logo} alt="Logo" />
+              </a>
             </div>
           </div>
         </div>
@@ -72,7 +75,7 @@ function Navbar() {
         dataLength={imagenes.length}
         next={useEffect.consultarApi}
         hasMore={true}
-        loader={<h4>Loading...</h4>}
+        loader={<h4> ... Loading ...</h4>}
         endMessage={
           <p style={{ textAlign: "center" }}>
             <b>Yay! You have seen it all</b>
@@ -83,6 +86,7 @@ function Navbar() {
           <ListImage imagenes={imagenes} />
         </Masonry>
       </InfiniteScroll>
+      <ButtonsOptions />
     </div>
   );
 }

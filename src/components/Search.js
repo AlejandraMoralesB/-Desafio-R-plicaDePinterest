@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Search.css";
 
 function Search({ guardarBusqueda }) {
   const [terminoBusqueda, guardarTerminoBusqueda] = useState("");
@@ -26,7 +27,7 @@ function Search({ guardarBusqueda }) {
     >
       <div className="content-input border-search">
         <div>
-          <i className="fas fa-search"></i>
+          <i className="   glyphicon glyphicon-search  w3-large "></i>
         </div>
         <input
           className="input-search color-text"

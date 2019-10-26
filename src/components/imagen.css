@@ -3,15 +3,23 @@
   border-radius: 8px;
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
+  padding: 10px;
 }
 
 .content-img {
   padding-left: 10px;
   padding-right: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  width: 350px;
 }
 
 .images-list:hover {
-  background: grey;
-  opacity: 0.34;
+  background: rgb(194, 194, 194);
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+  border-radius: 25px;
+}
+
+.img {
+  border-radius: 25px;
 }

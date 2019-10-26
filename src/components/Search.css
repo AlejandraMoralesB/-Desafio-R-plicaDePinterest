@@ -1,0 +1,5 @@
+.glyphicon-search::before {
+  content: "\e003";
+  padding: 20px;
+  color: #8e8e8e;
+}

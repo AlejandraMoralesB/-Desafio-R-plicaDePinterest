@@ -91,6 +91,11 @@
   outline: none;
   padding: 0;
   width: 100%;
+  background-image: url("http://foros.emprear.com/img/fdw/loupe.png");
+}
+.color-text,
+.input-search {
+  background-color: transparent;
 }
 
 .color-text {
@@ -145,8 +150,12 @@
   border-top: 1px solid #efefef;
 }
 
-.border-search {
+.border-search:hover {
   border-color: rgb(139, 191, 252);
+}
+
+.border-search {
+  border-color: #8e8e8e00;
   border-radius: 8px;
   border-width: 3px;
   border-style: solid;
