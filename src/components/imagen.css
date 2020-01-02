@@ -1,7 +1,6 @@
 .images-list {
   width: 100%;
   border-radius: 25px;
-  cursor: -webkit-zoom-in;
   cursor: zoom-in;
   padding: 10px;
 }
@@ -11,12 +10,12 @@
   padding-right: 10px;
   margin-bottom: 10px;
   width: 350px;
+  border-radius: 25px;
 }
 
 .images-list:hover {
   background: rgb(194, 194, 194);
   opacity: 0.6;
-  filter: alpha(opacity=50);
   border-radius: 25px;
 }
 

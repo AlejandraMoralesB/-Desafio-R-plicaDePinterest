@@ -16,13 +16,16 @@ function Navbar() {
 
   useEffect(() => {
     const consultarApi = async () => {
+      //no haga una busqueda antes
       if (busqueda === "") return;
 
       const imagenesPorPagina = 20;
       const key = "13914263-0b302888b20136cdbe03baab4";
+      const unico = "";
+      // escribo como Templete String
+      const url = `https://pixabay.com/api/?key=${key}&q=${busqueda}&per_page=${imagenesPorPagina}&id=${unico}`;
 
-      const url = `https://pixabay.com/api/?key=${key}&q=${busqueda}&per_page=${imagenesPorPagina}`;
-
+      // utilizar FETCH
       const respuesta = await fetch(url);
       const resultado = await respuesta.json();
 
@@ -57,16 +60,19 @@ function Navbar() {
           </div>
           <div className="border-separator padding-navtext"></div>
           <div className="content-iconright">
-            <i className="fas fa-comment-dots"></i>
-            <img src={Chat} alt="message" />
+            <i className="fas fa-comment-dots">
+              <img src={Chat} alt="message" />
+            </i>
           </div>
           <div className="content-iconright">
-            <i className="fas fa-bell"></i>
-            <img src={Bell} alt="news" />
+            <i className="fas fa-bell">
+              <img src={Bell} alt="news" />
+            </i>
           </div>
           <div className="content-iconright">
-            <i className="fas fa-ellipsis-h"></i>
-            <img src={Dots} alt="add" />
+            <i className="fas fa-ellipsis-h">
+              <img src={Dots} alt="add" />
+            </i>
           </div>
         </div>
       </nav>
